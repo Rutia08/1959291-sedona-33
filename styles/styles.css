@@ -981,6 +981,13 @@ img {
   top: 50%;
   transform: translateY(-7px);
   color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  border: none;
+  background: none;
+}
+
+.icon-minus-svg {
+  transform: translateY(-5px);
 }
 
 .icon-plus {
@@ -994,6 +1001,8 @@ img {
   transform: translateY(-7px);
   color: rgba(0, 0, 0, 0.3);
   border-radius: 4px;
+  border: none;
+  background: none;
 }
 
 .modal-form .button {

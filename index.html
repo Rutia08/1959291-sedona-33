@@ -216,9 +216,13 @@
               <p class="field-group">
                 <label class="adults-label" for="adults">Взрослые:</label>
                 <span class="input-wrapper-adults">
-                  <svg class="icon-minus" role="button" aria-label="Уменьшить число людей." tabindex="0" width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v1h13V0H0Z"/></svg>
+                  <button class="icon-minus">
+                    <svg class="icon-minus-svg" aria-label="Уменьшить число людей." width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v1h13V0H0Z"/></svg>
+                  </button>
                   <input class="adults" id="adults" type="number" name="adults" value="2">
-                  <svg class="icon-plus" role="button" aria-label="Увеличить число людей." tabindex="0" width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
+                  <button class="icon-plus">
+                    <svg class="icon-plus-svg" aria-label="Увеличить число людей." width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
+                  </button>
                 </span>
                 <span class="children-label-wrapper">
                   <label class="children-label" for="children">Дети:</label>
@@ -230,9 +234,13 @@
                   </span>
                 </span>
                 <span class="input-wrapper-children">
-                  <svg class="icon-minus" role="button" aria-label="Уменьшить число людей." tabindex="0" width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v1h13V0H0Z"/></svg>
-                  <input class="children" id="children" type="number" name="children" value="1">
-                  <svg class="icon-plus" role="button" aria-label="Увеличить число людей." tabindex="0" width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
+                  <button class="icon-minus">
+                    <svg class="icon-minus-svg" aria-label="Уменьшить число людей." width="13" height="1" viewBox="0 0 13 1" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v1h13V0H0Z"/></svg>
+                  </button>
+                    <input class="children" id="children" type="number" name="children" value="1">
+                    <button class="icon-plus">
+                      <svg class="icon-plus-svg" role="button" aria-label="Увеличить число людей." tabindex="0" width="13" height="13" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z"/></svg>
+                    </button>
                 </span>
               </p>
               <button class="button button-light-blue" type="submit">Найти</button>
